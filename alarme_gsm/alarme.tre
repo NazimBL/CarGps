@@ -1,0 +1,522 @@
+ÀÄalarme
+   ÃÄMAIN  0/4510  Ram=6
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ÀÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ÃÄinit_GPS0  0/116  Ram=3
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÀÄgps_dact  0/164  Ram=25
+   ³  ³     ÃÄ@const1019  0/46  Ram=0
+   ³  ³     ÃÄ@PUTCHAR_4_  0/84  Ram=1
+   ³  ³     ÃÄ@PSTRINGR_774  0/36  Ram=2
+   ³  ³     ³  ÀÄ@PUTCHAR_4_  0/84  Ram=1
+   ³  ³     ÃÄ@PUTCHAR_4_  0/84  Ram=1
+   ³  ³     ÃÄ@PRINTF_X_774  0/70  Ram=2
+   ³  ³     ³  ÃÄ@PUTCHAR_4_  0/84  Ram=1
+   ³  ³     ³  ÀÄ@PUTCHAR_4_  0/84  Ram=1
+   ³  ³     ÃÄ@PUTCHAR_4_  0/84  Ram=1
+   ³  ³     ÀÄ@PUTCHAR_4_  0/84  Ram=1
+   ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ÃÄSIM_PowerOn  0/282  Ram=3
+   ³  ³  ÃÄSIM_SendONOFF  0/126  Ram=1
+   ³  ³  ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ÃÄSIM2EEPROM  0/258  Ram=15
+   ³  ³  ÃÄ@PSTRINGCN_9600_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄ@PRINTF_D_9600_31766_31767  0/192  Ram=6
+   ³  ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ³  ÀÄ@DIV88  0/44  Ram=3
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÀÄSIM_WaitResponse  0/108  Ram=8
+   ³  ³     ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ÃÄSIM2EEPROM  0/258  Ram=15
+   ³  ³  ÀÄ*
+   ³  ÃÄSIM2EEPROM  0/258  Ram=15
+   ³  ³  ÀÄ*
+   ³  ÃÄSIM2EEPROM  0/258  Ram=15
+   ³  ³  ÀÄ*
+   ³  ÃÄusb_init  0/24  Ram=0
+   ³  ³  ÃÄusb_init_cs  0/6  Ram=0
+   ³  ³  ³  ÀÄusb_detach  0/40  Ram=1
+   ³  ³  ³     ÀÄusb_token_reset  0/48  Ram=3
+   ³  ³  ÀÄusb_task  0/52  Ram=1
+   ³  ³     ÃÄusb_attach  0/38  Ram=0
+   ³  ³     ³  ÀÄusb_token_reset  0/48  Ram=3
+   ³  ³     ÀÄusb_detach  0/40  Ram=1
+   ³  ³        ÀÄ*
+   ³  ÃÄusb_task  0/52  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄusb_enumerated  0/12  Ram=0
+   ³  ÃÄusb_kbhit  0/60  Ram=4
+   ³  ÃÄusb_get_packet  0/74  Ram=5
+   ³  ³  ÃÄusb_get_packet_buffer  0/198  Ram=12
+   ³  ³  ÀÄusb_flush_out  0/206  Ram=9
+   ³  ³     ÀÄ@const1157  0/66  Ram=0
+   ³  ÃÄ@goto13572  0/86  Ram=0
+   ³  ÃÄusb_put_packet  0/168  Ram=10
+   ³  ³  ÃÄusb_tbe  0/68  Ram=4
+   ³  ³  ÀÄusb_flush_in  0/222  Ram=9
+   ³  ³     ÀÄusb_tbe  0/68  Ram=4
+   ³  ÃÄusb_put_packet  0/168  Ram=10
+   ³  ³  ÀÄ*
+   ³  ÃÄusb_put_packet  0/168  Ram=10
+   ³  ³  ÀÄ*
+   ³  ÃÄusb_put_packet  0/168  Ram=10
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGR_622  0/50  Ram=2
+   ³  ³  ÀÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ÃÄusb_put_packet  0/168  Ram=10
+   ³  ³  ÀÄ*
+   ³  ÃÄusb_put_packet  0/168  Ram=10
+   ³  ³  ÀÄ*
+   ³  ÃÄusb_put_packet  0/168  Ram=10
+   ³  ³  ÀÄ*
+   ³  ÃÄusb_put_packet  0/168  Ram=10
+   ³  ³  ÀÄ*
+   ³  ÃÄARM_action  0/74  Ram=1
+   ³  ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÀÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³     ÀÄ*
+   ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄD_ARM_action  0/126  Ram=1
+   ³  ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÀÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³     ÀÄ*
+   ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄread_alarm_input  0/44  Ram=0
+   ³  ÃÄ@PSTRINGCN_622  0/54  Ram=3
+   ³  ³  ÀÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ÃÄ@PRINTF_D_622  0/252  Ram=6
+   ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ÀÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄtx  0/260  Ram=2
+   ³  ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄread_tel_n  0/102  Ram=7
+   ³  ³  ÃÄ@PSTRINGCN_622  0/54  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGR_622  0/50  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ÃÄbip  0/516  Ram=14
+   ³  ³  ³  ÃÄ@PSTRINGCN_9600_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PSTRINGR_9600_31766_31767  0/38  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_9600_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGCN_622  0/54  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGCN_622  0/54  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄsms  0/806  Ram=1
+   ³  ³  ³  ÃÄ@PSTRINGCN_622  0/54  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGR_622  0/50  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄget_gps_pos0  0/1510  Ram=29
+   ³  ³  ³  ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄgps_act  0/158  Ram=25
+   ³  ³  ³  ³  ³  ÃÄ@const1030  0/46  Ram=0
+   ³  ³  ³  ³  ³  ÃÄ@PUTCHAR_4_  0/84  Ram=1
+   ³  ³  ³  ³  ³  ÃÄ@PSTRINGR_774  0/36  Ram=2
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÃÄ@PUTCHAR_4_  0/84  Ram=1
+   ³  ³  ³  ³  ³  ÃÄ@PRINTF_X_774  0/70  Ram=2
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÃÄ@PUTCHAR_4_  0/84  Ram=1
+   ³  ³  ³  ³  ³  ÀÄ@PUTCHAR_4_  0/84  Ram=1
+   ³  ³  ³  ³  ÃÄ@GETCH_4_  0/94  Ram=1
+   ³  ³  ³  ³  ÃÄ@GETCH_4_  0/94  Ram=1
+   ³  ³  ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ³  ÃÄ@PSTRINGR_622  0/50  Ram=2
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄ@const1049  0/34  Ram=0
+   ³  ³  ³  ³  ÃÄstrncmp  0/150  Ram=7
+   ³  ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ³  ÀÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ³  ÃÄ@PSTRINGR_622  0/50  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGCN_622  0/54  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGR_622  0/50  Ram=2
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGCN_622  0/54  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@PSTRINGCN_9600_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PSTRINGR_9600_31766_31767  0/38  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_9600_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄwait_  0/72  Ram=2
+   ³  ³  ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_9600_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PSTRINGR_9600_31766_31767  0/38  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGR_9600_31766_31767  0/38  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_9600_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PSTRINGR_9600_31766_31767  0/38  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGR_9600_31766_31767  0/38  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_9600_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PSTRINGR_9600_31766_31767  0/38  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGR_9600_31766_31767  0/38  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_9600_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PSTRINGR_9600_31766_31767  0/38  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGR_9600_31766_31767  0/38  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_9600_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PSTRINGR_9600_31766_31767  0/38  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGR_9600_31766_31767  0/38  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÀÄ@PUTCHARI_BIU_3  0/8  Ram=0
+   ³  ³  ÃÄ@PSTRINGCN_622  0/54  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGR_622  0/50  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGCN_622  0/54  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ÃÄ@PUTCHARI_BIU_3  0/8  Ram=0
+   ³  ÃÄwait_  0/72  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PUTCHARI_BIU_3  0/8  Ram=0
+   ³  ÃÄ@PUTCHARI_BIU_3  0/8  Ram=0
+   ³  ÃÄ@PUTCHARI_BIU_3  0/8  Ram=0
+   ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ÃÄ@PUTCHARI_BIU_3  0/8  Ram=0
+   ³  ÃÄget_sold_val  0/360  Ram=5
+   ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄ@PSTRINGR_622  0/50  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGCN_622  0/54  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_LD_622  0/260  Ram=9
+   ³  ³  ³  ÀÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ³  ÀÄ@PSTRINGCN_622  0/54  Ram=3
+   ³  ³     ÀÄ*
+   ³  ÃÄread_tel_n  0/102  Ram=7
+   ³  ÃÄsms  0/806  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ÃÄget_sms_n  0/342  Ram=13
+   ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ÃÄread_tel_n  0/102  Ram=7
+   ³  ÃÄstrncmp  0/150  Ram=7
+   ³  ÃÄ@PSTRINGCN_622  0/54  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGR_622  0/50  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ÃÄ@PSTRINGCN_622  0/54  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGR_622  0/50  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ÃÄget_pass_word  0/100  Ram=6
+   ³  ÃÄpass_word_ok  0/126  Ram=5
+   ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄget_gps_speed  0/450  Ram=9
+   ³  ³  ÃÄ@GETCH_2_  0/94  Ram=1
+   ³  ³  ÃÄ@GETCH_2_  0/94  Ram=1
+   ³  ³  ÃÄ@GETCH_2_  0/94  Ram=1
+   ³  ³  ÀÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³     ÀÄ*
+   ³  ÃÄspeed_cal  0/100  Ram=6
+   ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄsms  0/806  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGCN_622  0/54  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGR_622  0/50  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄsms  0/806  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄsave_pass_word  0/188  Ram=5
+   ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_622  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄread_sold_msg  0/84  Ram=7
+   ³  ÃÄ@PSTRINGCN_622  0/54  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGR_622  0/50  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ÃÄ@PSTRINGCN_9600_31766_31767  0/42  Ram=3
+   ³  ÃÄ@PSTRINGR_9600_31766_31767  0/38  Ram=2
+   ³  ÃÄ@PSTRINGCN_9600_31766_31767  0/42  Ram=3
+   ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄget_gps_speed  0/450  Ram=9
+   ³  ³  ÀÄ*
+   ³  ÃÄspeed_cal  0/100  Ram=6
+   ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄread_tel_n  0/102  Ram=7
+   ³  ÃÄsms  0/806  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ÃÄwrite_alarm_outputs  0/128  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄread_tel_n  0/102  Ram=7
+   ³  ÃÄget_ring_n  0/188  Ram=10
+   ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ÃÄ@PSTRINGCN_622  0/54  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGR_622  0/50  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ÃÄ@PUTCHAR_1_  0/82  Ram=1
+   ³  ÃÄstrncmp  0/150  Ram=7
+   ³  ÃÄsms  0/806  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÀÄwrite_alarm_outputs  0/128  Ram=3
+   ³     ÀÄ*
+   ÃÄusb_isr  0/166  Ram=2
+   ³  ÃÄusb_isr_activity  0/16  Ram=0
+   ³  ÃÄusb_isr_stall  0/14  Ram=0
+   ³  ³  ÀÄusb_init_ep0_setup  0/32  Ram=0
+   ³  ÃÄusb_isr_uerr  0/8  Ram=0
+   ³  ÃÄusb_isr_rst  0/46  Ram=0
+   ³  ³  ÃÄusb_disable_endpoints  0/30  Ram=1
+   ³  ³  ³  ÀÄusb_disable_endpoint  0/84  Ram=5
+   ³  ³  ³     ÀÄusb_endpoint_is_valid  0/98  Ram=3
+   ³  ³  ³        ÃÄ@const1151  0/32  Ram=0
+   ³  ³  ³        ÀÄ@const1151  0/32  Ram=0
+   ³  ³  ÃÄusb_token_reset  0/48  Ram=3
+   ³  ³  ÃÄusb_clear_trn  0/4  Ram=0
+   ³  ³  ÀÄusb_init_ep0_setup  0/32  Ram=0
+   ³  ÃÄusb_isr_uidle  0/10  Ram=0
+   ³  ÃÄusb_isr_sof  0/6  Ram=0
+   ³  ÃÄusb_clear_trn  0/4  Ram=0
+   ³  ÀÄusb_isr_tok_dne  0/270  Ram=2
+   ³     ÃÄusb_isr_tok_setup_dne  0/44  Ram=0
+   ³     ³  ÃÄusb_isr_tkn_setup_StandardDevice  0/194  Ram=0
+   ³     ³  ³  ÃÄusb_request_send_response  0/6  Ram=1
+   ³     ³  ³  ÃÄusb_request_send_response  0/6  Ram=1
+   ³     ³  ³  ÃÄusb_request_stall  0/8  Ram=0
+   ³     ³  ³  ÃÄusb_request_send_response  0/6  Ram=1
+   ³     ³  ³  ÃÄusb_request_stall  0/8  Ram=0
+   ³     ³  ³  ÃÄusb_request_send_response  0/6  Ram=1
+   ³     ³  ³  ÃÄusb_Get_Descriptor  0/180  Ram=1
+   ³     ³  ³  ³  ÃÄ@const1172  0/20  Ram=0
+   ³     ³  ³  ³  ÃÄ@const1175  0/70  Ram=0
+   ³     ³  ³  ³  ÃÄusb_request_stall  0/8  Ram=0
+   ³     ³  ³  ³  ÀÄusb_copy_desc_seg_to_ep  0/210  Ram=4
+   ³     ³  ³  ³     ÃÄ@const1163  0/48  Ram=0
+   ³     ³  ³  ³     ÃÄ@const1175  0/70  Ram=0
+   ³     ³  ³  ³     ÃÄ@const1169  0/34  Ram=0
+   ³     ³  ³  ³     ÀÄusb_request_send_response  0/6  Ram=1
+   ³     ³  ³  ÃÄusb_request_send_response  0/6  Ram=1
+   ³     ³  ³  ÃÄusb_set_configured  0/476  Ram=12
+   ³     ³  ³  ³  ÃÄusb_disable_endpoints  0/30  Ram=1
+   ³     ³  ³  ³  ³  ÀÄ*
+   ³     ³  ³  ³  ÃÄusb_disable_endpoint  0/84  Ram=5
+   ³     ³  ³  ³  ³  ÀÄ*
+   ³     ³  ³  ³  ÃÄ@const1151  0/32  Ram=0
+   ³     ³  ³  ³  ÃÄ@const1157  0/66  Ram=0
+   ³     ³  ³  ³  ÃÄ@const1157  0/66  Ram=0
+   ³     ³  ³  ³  ÃÄ@const1151  0/32  Ram=0
+   ³     ³  ³  ³  ÃÄ@const1157  0/66  Ram=0
+   ³     ³  ³  ³  ÀÄ@const1151  0/32  Ram=0
+   ³     ³  ³  ÃÄusb_request_send_response  0/6  Ram=1
+   ³     ³  ³  ÀÄusb_request_stall  0/8  Ram=0
+   ³     ³  ÃÄusb_isr_tkn_setup_StandardInterface  0/174  Ram=3
+   ³     ³  ³  ÃÄusb_request_send_response  0/6  Ram=1
+   ³     ³  ³  ÃÄ@const1166  0/18  Ram=0
+   ³     ³  ³  ÃÄusb_request_send_response  0/6  Ram=1
+   ³     ³  ³  ÃÄusb_request_stall  0/8  Ram=0
+   ³     ³  ³  ÃÄusb_request_send_response  0/6  Ram=1
+   ³     ³  ³  ÃÄusb_request_stall  0/8  Ram=0
+   ³     ³  ³  ÀÄusb_request_stall  0/8  Ram=0
+   ³     ³  ÃÄusb_isr_tkn_setup_StandardEndpoint  0/106  Ram=0
+   ³     ³  ³  ÃÄusb_endpoint_is_valid  0/98  Ram=3
+   ³     ³  ³  ³  ÀÄ*
+   ³     ³  ³  ÃÄusb_unstall_ep  0/72  Ram=6
+   ³     ³  ³  ÃÄusb_request_send_response  0/6  Ram=1
+   ³     ³  ³  ÃÄusb_stall_ep  0/74  Ram=6
+   ³     ³  ³  ÃÄusb_request_send_response  0/6  Ram=1
+   ³     ³  ³  ÃÄusb_endpoint_stalled  0/90  Ram=5
+   ³     ³  ³  ÃÄusb_request_send_response  0/6  Ram=1
+   ³     ³  ³  ÀÄusb_request_stall  0/8  Ram=0
+   ³     ³  ÀÄusb_request_stall  0/8  Ram=0
+   ³     ÃÄusb_flush_out  0/206  Ram=9
+   ³     ³  ÀÄ*
+   ³     ÃÄusb_flush_out  0/206  Ram=9
+   ³     ³  ÀÄ*
+   ³     ÃÄusb_flush_in  0/222  Ram=9
+   ³     ³  ÀÄ*
+   ³     ÃÄusb_isr_tok_out_dne  0/10  Ram=1
+   ³     ÃÄusb_flush_out  0/206  Ram=9
+   ³     ³  ÀÄ*
+   ³     ÃÄusb_flush_in  0/222  Ram=9
+   ³     ³  ÀÄ*
+   ³     ÃÄusb_isr_tok_in_dne  0/40  Ram=1
+   ³     ³  ÃÄusb_copy_desc_seg_to_ep  0/210  Ram=4
+   ³     ³  ³  ÀÄ*
+   ³     ³  ÀÄusb_finish_set_address  0/18  Ram=0
+   ³     ³     ÀÄusb_set_address  0/32  Ram=1
+   ³     ÃÄusb_flush_in  0/222  Ram=9
+   ³     ³  ÀÄ*
+   ³     ÃÄusb_isr_tok_out_dne  0/10  Ram=1
+   ³     ÀÄusb_isr_tok_in_dne  0/40  Ram=1
+   ³        ÀÄ*
+   ÀÄRDA_isr  0/536  Ram=2
+      ÃÄ@PSTRINGC_622  0/32  Ram=2
+      ³  ÀÄ*
+      ÃÄ@PUTCHAR_1_  0/82  Ram=1
+      ÀÄ@PUTCHAR_1_  0/82  Ram=1

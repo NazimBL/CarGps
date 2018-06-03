@@ -1,0 +1,16 @@
+[PROJECT]
+Target=alarme.hex
+Processor_Text=PIC18F2550
+CCSVersion=5.008
+Compiler=PCH
+[Target Data]
+FileList=alarme.c
+[Directories]
+Include=D:\Program Files\PICC\Devices\;D:\Program Files\PICC\Drivers\;C:\Users\macbook\Desktop\alarme_gsm\include\
+[alarme.c]
+Type=4
+[mru-list]
+1=alarme.c
+[Units]
+Count=1
+1=alarme (main)

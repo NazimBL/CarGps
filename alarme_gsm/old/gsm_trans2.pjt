@@ -1,0 +1,52 @@
+[Directories]
+Include=C:\Program Files\PICC\devices\;C:\Program Files\PICC\drivers\;
+Library=
+LinkerScript=
+[defines]
+enabled=0
+D1=
+V1=
+[fileformats]
+forcecoff=0
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+[PROJECT]
+Target=gsm_trans2.hex
+Development_Mode=
+Processor=0x2550
+Processor_Text=PIC18F2550
+ToolSuite=CCS
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+FileList=gsm_trans2.c
+[gsm_trans2.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=G:\gsm_trans1\gsm_trans2.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Opened Files]
+1=F:\gsm_gps\gsm_trans1\gsm_trans2.c
+2=F:\gsm_gps\gsm_trans1\include\sim508.h
+3=
+4=
+[Units]
+Count=1
+1=gsm_trans2.c (main)

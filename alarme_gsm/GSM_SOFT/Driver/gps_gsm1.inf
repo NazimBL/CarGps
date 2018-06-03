@@ -1,0 +1,103 @@
+
+;---- Class Info ------------------------------------------------------------
+
+[ClassInstall32]
+CopyFiles=DLLDestDir,DLLDestDirB
+AddReg=EMNTCLASS
+
+[EMNTCLASS]
+HKR,,,,"EMNT_USB"
+HKR,,EnumPropPages32,,"PIcon0.DLL,MCINSTLSProp"
+HKR,,Icon,,"0"
+;--------------------------------------------------
+
+[Version]
+Signature=$CHICAGO$
+Class=EMNT_USB
+;ClassGuid={4D36E97E-E325-11CE-BFC1-08002BE10318}
+ClassGUID={DEB97E2C-8B0F-446F-B280-7CFAC41C3BD1}
+Provider=%ONEYSOFT%
+CatalogFile=mchpusb.cat
+DriverVer=11/19/2004
+
+[Manufacturer]
+%MFGNAME%=DeviceList
+
+[DestinationDirs]
+DefaultDestDir=10,System32\Drivers
+EMNT_Icon_Copy = 11
+DLLDestDir=10
+DLLDestDirB=11
+
+[SourceDisksFiles]
+mchpusb.sys=1
+wdmstub.sys=1
+PIcon0.dll = 1
+
+[SourceDisksNames]
+1=%INSTDISK%,,,
+
+[DeviceList]
+%DESCRIPTION%=DriverInstall,USB\VID_0777&PID_5084, USB\VID_0777&PID_5082, USB\VID_0777&PID_5000
+
+;------------------------------------------------------------------------------
+;  Windows 2000/XP Sections
+;------------------------------------------------------------------------------
+
+[DriverInstall.ntx86]
+CopyFiles=DriverCopyFiles,IconCopy
+AddProperty=EMNT_Icons
+AddReg=EMNT_Explorer_Icons
+
+
+[DriverCopyFiles]
+mchpusb.sys,,,2
+
+[IconCopy]
+PIcon0.dll
+
+[Gadget_Icons]
+; Register icons for use in Device Manager, etc. (step 3)
+DeviceIcon,,,,”%winddir%\system32\PIcon0.dll,-1”
+
+[Gadget_Explorer_Icons]
+; Register icons for use in My Computer (step 4)
+HKR,,Icons,0x10000,"%windir%\system32\PIcon0.dll,-11"
+HKR,,NoMediaIcons,0x10000,"%windir%\system32\PIcon0.dll,-12"
+
+
+[DriverInstall.ntx86.Services]
+AddService=MCHPUSB,2,DriverService
+
+[DriverService]
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%10%\system32\drivers\mchpusb.sys
+AddReg=TraceFlags
+
+;------------------------------------------------------------------------------
+;  Windows 98/Me Sections
+;------------------------------------------------------------------------------
+
+[DriverInstall]
+AddReg=DriverAddReg
+CopyFiles=DriverCopyFiles,StubCopyFiles
+DriverVer=01/01/2003		; TODO replace with real info
+
+[DriverAddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,"wdmstub.sys,mchpusb.sys"
+
+[StubCopyFiles]
+wdmstub.sys,,,2
+
+;------------------------------------------------------------------------------
+;  String Definitions
+;------------------------------------------------------------------------------
+
+[Strings]
+ONEYSOFT="Walter Oney Software"
+MFGNAME="ElectroMechanics New Technologies, Inc."
+INSTDISK="EMNT, Inc. Installation Disc"
+DESCRIPTION="EMNT GPS/GSM System"

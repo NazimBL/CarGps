@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <script src = "https://maps.googleapis.com/maps/api/js"></script>
+      
+      <script>
+			var Latitude="";
+			var Longitude="";
+			//get latitude and longitude from nmea string sent by the atmega
+			function NmeaFetch(nmealat,nmealongitude){
+		 			
+			var lat=nmealat.charAt(0).concat(nmealat.charAt(1));
+			var longitude=nmealongitude.charAt(0).concat(nmealongitude.charAt(1)).concat(nmealongitude.charAt(2));
+						
+			var latDeg="";
+			var longDeg="";
+			for(var i=2;i<nmealat;i++)latDeg=latDeg.concat(nmealat.charAt(i));
+			for(var i=3;i<nmealongitude;i++)longDeg=longDeg.concat(nmealongitude.charAt(i));	
+			
+			longDeg/=6;
+			latDeg/=6;
+			
+			lat=(lat+latDeg)/10;
+			longitude=(longitude+longDeg)/10;
+			
+			Latitude=lat;
+			Longitude=longitude;
+			}
+         function loadMap(){
+		    
+			//var lat=36.7504795;
+			//var longitude=3.05369633333333;
+			var nmealat="3645.02877";
+			var nmealongitude="00303.22178";
+			
+			NmeaFetch(nmealat,nmealongitude);
+            var mapProp = {
+               center:new google.maps.LatLng(Latitude,Longitude),
+               zoom:17,
+               mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+         
+            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			
+			var marker=new google.maps.Marker({
+			position:new google.maps.LatLng(Latitude,Longitude),
+			map:map,
+			});
+			
+            var myCity = new google.maps.Circle({
+               center:new google.maps.LatLng(Latitude,Longitude),
+               radius:50,
+            
+               strokeColor:"#B40404",
+               strokeOpacity:0.6,
+               strokeWeight:2,
+            
+               fillColor:"#B40404",
+               fillOpacity:0.6
+            });
+				
+            myCity.setMap(map);
+         }
+		 
+      </script>
+      
+   </head>
+   
+   <body onload = "loadMap()">
+      <div id = "googleMap" style = "width:1350px; height:600px;"></div>
+   </body>
+</html>
